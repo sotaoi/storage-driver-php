@@ -1,0 +1,28 @@
+/vendor
+composer.phar
+composer.lock
+.DS_Store
+/.idea
+
+#########
+
+# certs
+/certs/*
+!/certs/.gitkeep
+
+# app
+/.env
+env.json
+/node_modules
+/vendor
+/storage/*
+!/storage/.gitkeep
+
+# logs
+/logs/*
+!/logs/.gitkeep
+
+
+# ide
+/.idea
+/.vscode
